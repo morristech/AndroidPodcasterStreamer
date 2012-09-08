@@ -1,0 +1,14 @@
+<resources>
+
+    <string name="app_name">Podcast Streamer</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_streaming">StreamingActivity</string>
+	<string name="show_name"></string>
+	<string name="fast_forward"></string>
+    <string name="next"></string>
+	<string name="rewind"></string>
+    <string name="play"></string>
+	<string name="previous"></string>
+    <string name="episode_name"></string>
+</resources>

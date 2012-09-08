@@ -189,15 +189,7 @@ public class StreamingActivity extends Activity implements View.OnClickListener,
 						this.btnPlay.setImageResource(R.drawable.play_green);
 					} else {
 						// play the audio
-						mp.start();
-						
-						if (mp.isPlaying()) {
-							// change the image to a pause button
-							this.btnPlay.setImageResource(R.drawable.pause_green);
-						}
-						else {
-							showToastMessage("Not enough audio has buffered yet.  Please try again later.");
-						}					
+						mp.start();			
 					}
 		    	} catch (Exception ex) {
 		    		showToastMessage(ex.toString());
